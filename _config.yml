@@ -1,0 +1,10 @@
+# GitHub Pages serves the repo root through Jekyll. Keep the test tooling out
+# of the published site. Jekyll 3 (what Pages runs) replaces its default
+# exclude list with this one, so node_modules is listed again here.
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - e2e.config.ts
+  - tests
+  - README.md
